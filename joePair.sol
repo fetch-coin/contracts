@@ -1,6 +1,7 @@
 /**
- *Submitted for verification at snowtrace.io on 2021-11-05
-*/
+ * Submitted for verification at snowtrace.io on 2021-11-05
+ * https://snowtrace.io/address/0xf60624661645946c4c2f7514f632fe16ce1cb400#code
+ */
 
 // File: contracts/traderjoe/libraries/SafeMath.sol
 

@@ -1,6 +1,7 @@
 /**
- *Submitted for verification at snowtrace.io on 2021-11-30
-*/
+ * Submitted for verification at snowtrace.io on 2021-11-30
+ * https://snowtrace.io/address/0xc1986af1492c9b091b1bb30e700536ac5a52761a#code
+ */
 
 // SPDX-License-Identifier: AGPL-3.0-or-later
 pragma solidity 0.8.0;
@@ -770,6 +771,7 @@ contract SohmoyedToken is ERC20Permit {
         _mint(_kibble, 1e30);
     }
 
+    // has this happened?
     function lock(address _bowl) external {
         require(msg.sender == initializer, "only init");
         require(_bowl != address(0), "bowl: 0");
@@ -777,6 +779,7 @@ contract SohmoyedToken is ERC20Permit {
         initializer = address(0); // initializer locked out
     }
 
+    // waterBowl can mint to accounts
     function breed (address account_, uint256 amount_) onlyBowl external {
         require(totalSupply() + amount_ <= maxSupply, "no more water");
         _mint(account_, amount_);

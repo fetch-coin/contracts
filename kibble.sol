@@ -1,6 +1,7 @@
 /**
- *Submitted for verification at snowtrace.io on 2021-11-30
-*/
+ * Submitted for verification at snowtrace.io on 2021-11-30
+ * https://snowtrace.io/address/0x6893a78c7665cca0c2f68eabd388952b6ac263ba#code
+ */
 
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity 0.8.0;
